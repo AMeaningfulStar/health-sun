@@ -1,5 +1,10 @@
 import Nav from './Nav'
 
+/** FIXME:
+ *  - Page 생성 후 Nav 컴포넌트의 'menuUrl' 값 변경
+ * 
+ */
+
 export default function Navgations() {
   return (
     <div className="my-4 flex w-full flex-col">
