@@ -1,3 +1,8 @@
+/** TODO:
+ *  - 문구를 DB에 저장하고 저장된 문구를 일정 시간에 맞추어 변경되도록, 혹은 랜덤으로 나오도록 구현 필요
+ * 
+ */
+
 export default function TodayText() {
   return (
     <div className="ml-4 flex flex-col gap-y-px">
