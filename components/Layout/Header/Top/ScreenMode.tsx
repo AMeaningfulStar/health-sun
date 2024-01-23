@@ -7,6 +7,11 @@ import { ThemeEnum } from '@libs/theme'
 import darkModeIcon from '@img/darkMode.svg'
 import lightModeIcon from '@img/lightMode.svg'
 
+/** FIXME:
+ *  - 첫 랜더링 시, 라이브 모드의 백 그라운드가 화이트가 되지 않는 오류 수정
+ * 
+ */
+
 export default function ScreenMode() {
   const ModeButton = ({ theme }: { theme: ThemeEnum }) => {
     const { theme: globalTheme, setTheme } = useTheme()
