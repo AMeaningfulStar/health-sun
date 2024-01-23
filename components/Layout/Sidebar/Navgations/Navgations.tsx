@@ -7,7 +7,7 @@ import Nav from './Nav'
 
 export default function Navgations() {
   return (
-    <div className="my-4 flex w-full flex-col">
+    <div className="my-4 flex w-full flex-col flex-grow">
       <Nav title="홈" menuUrl="/">
         <svg width="21" height="21" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
