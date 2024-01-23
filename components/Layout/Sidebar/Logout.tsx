@@ -1,3 +1,10 @@
+
+/** TODO:
+ *  - 로그아웃 기능 추가
+ *  - 로그인 여부에 따른 노출 기능 추가
+ *  - 
+ */
+
 export default function Logout() {
   return (
     <div className="h-24 w-full px-4">
