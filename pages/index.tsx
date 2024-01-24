@@ -1,16 +1,20 @@
 import Layout from '@components/Layout/Layout'
+import HealthCalendar from '@components/MainContents/HealthCalendar/HealthCalendar'
+import HealthManagement from '@components/MainContents/HealthManagement/HealthManagement'
+import MedInfo from '@components/MainContents/MedInfo/MedInfo'
+import VaccinationRecommendation from '@components/MainContents/VaccinationRecommendation/VaccinationRecommendation'
 
 export default function Home() {
   return (
     <Layout>
       <div className="flex h-full w-full">
-        <div className="mr-4 flex h-full w-2/3 flex-col">
-          <div className="mb-4 h-96 w-full rounded-xl bg-[#F6F6F9]"></div>
-          <div className="h-60 w-full rounded-xl bg-[#F6F6F9]"></div>
+        <div className="mr-4 flex h-full w-2/3 flex-col gap-y-4">
+          <HealthManagement />
+          <VaccinationRecommendation />
         </div>
-        <div className="flex h-full w-1/3 flex-col">
-          <div className="mb-4 h-80 w-full rounded-xl bg-[#F6F6F9]"></div>
-          <div className="h-[19rem] w-full rounded-xl bg-[#F6F6F9]"></div>
+        <div className="flex h-full w-1/3 flex-col gap-y-4">
+          <HealthCalendar />
+          <MedInfo />
         </div>
       </div>
     </Layout>
