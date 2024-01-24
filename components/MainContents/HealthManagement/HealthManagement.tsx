@@ -2,7 +2,10 @@ import ContentBox from '../Layout/ContentBox'
 import Title from '../Layout/Element/Title'
 import Notification from './Notification'
 
-
+/** TODO:
+ *  - 퍼블리싱을 위한 임시 작업을 한 코드 지우고 데이터 넣어야함
+ * 
+ */
 
 export default function HealthManagement() {
   return (
