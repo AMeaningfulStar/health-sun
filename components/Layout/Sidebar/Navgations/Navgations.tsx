@@ -17,7 +17,7 @@ export default function Navgations() {
           />
         </svg>
       </Nav>
-      <Nav title="건강 검진" menuUrl="/">
+      <Nav title="건강 검진" menuUrl="/health-checkup">
         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="Chart">
             <g id="Iconly/Bold/Chart">
@@ -32,7 +32,7 @@ export default function Navgations() {
           </g>
         </svg>
       </Nav>
-      <Nav title="예방 접종" menuUrl="/">
+      <Nav title="예방 접종" menuUrl="/vaccination">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="Colorize" clipPath="url(#clip0_1005_325)">
             <path
@@ -48,7 +48,7 @@ export default function Navgations() {
           </defs>
         </svg>
       </Nav>
-      <Nav title="복약 정보" menuUrl="/">
+      <Nav title="복약 정보" menuUrl="/medication-info">
         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="Calendar">
             <g id="Iconly/Bold/Calendar">
@@ -63,7 +63,7 @@ export default function Navgations() {
           </g>
         </svg>
       </Nav>
-      <Nav title="병원/약국 찾기" menuUrl="/">
+      <Nav title="병원/약국 찾기" menuUrl="/healthcare-search">
         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="Calendar">
             <path
