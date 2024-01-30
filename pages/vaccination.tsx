@@ -1,4 +1,3 @@
-import Layout from "@components/Layout/Layout"
 import Image from 'next/image'
 
 import Layout from '@components/Layout/Layout'
@@ -23,6 +22,11 @@ export default function Vaccination() {
             width={ARROW_LEFT_ICON.width}
             height={ARROW_LEFT_ICON.height}
           />
+          <div className="flex h-[36rem] max-h-[36rem] w-full items-center justify-center p-4">
+            <div className="h-full w-full overflow-hidden rounded-lg">
+              <div className="h-full w-full bg-slate-500"></div>
+            </div>
+          </div>
           <Image
             alt="Arrow_Icon: Right"
             src={ARROW_RIGHT_ICON.src}
