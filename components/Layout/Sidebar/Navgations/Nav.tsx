@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-import ARROW_ICON from '@img/Arrow_Right.svg'
+import ARROW_ICON from '@img/Right_Icon.svg'
 
 interface NavType {
   children: React.ReactNode
